@@ -20,7 +20,6 @@ public class Movement : MonoBehaviour
 
     public void Update() /* 매 프레임 호출 */
     {
-
         Debug.Log("Update");
     }
 
