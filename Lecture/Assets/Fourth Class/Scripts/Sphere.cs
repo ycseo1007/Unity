@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sphere : MonoBehaviour /* ÄÄÆ÷³ÍÆ®·Î ÀÎ½ÄµÇ±â À§ÇÑ ÇÊ¼ö »ó¼Ó */
+public class Sphere : MonoBehaviour /* ì»´í¬ë„ŒíŠ¸ë¡œ ì¸ì‹ë˜ê¸° ìœ„í•œ í•„ìˆ˜ ìƒì† */
 {
+    // Git Pull
     SphereCollider sphereCollider;
 
     void Start()
