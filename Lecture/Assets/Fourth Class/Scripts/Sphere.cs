@@ -9,7 +9,7 @@ public class Sphere : MonoBehaviour /* 컴포넌트로 인식되기 위한 필�
 
     void Start()
     {
-        sphereCollider = GetComponent<SphereCollider>();
+        sphereCollider = GetComponent<SphereCollider>(); // 주소를 받아와야 사용 가능
         sphereCollider.isTrigger = true;
     }
 
