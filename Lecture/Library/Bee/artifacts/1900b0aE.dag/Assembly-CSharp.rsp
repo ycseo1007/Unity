@@ -355,6 +355,7 @@
 "Assets/Fifth Class/Scripts/Player.cs"
 "Assets/First Class/Scripts/Movement.cs"
 "Assets/Fourth Class/Scripts/Sphere.cs"
+"Assets/Seventh Class/Scripts/Environment.cs"
 "Assets/SIxth Class/Scripts/Controller.cs"
 "Assets/Third Class/Scripts/MainMenu.cs"
 -langversion:9.0
