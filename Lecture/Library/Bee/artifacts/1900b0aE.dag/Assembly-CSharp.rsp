@@ -359,6 +359,7 @@
 "Assets/Ninth Class/Scripts/Timmy.cs"
 "Assets/Seventh Class/Scripts/Environment.cs"
 "Assets/SIxth Class/Scripts/Controller.cs"
+"Assets/Tenth Class/Scripts/SpawnManager.cs"
 "Assets/Third Class/Scripts/MainMenu.cs"
 -langversion:9.0
 

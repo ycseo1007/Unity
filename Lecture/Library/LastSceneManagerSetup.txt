@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Ninth Class/Scenes/NInth Scene.unity
+- path: Assets/Tenth Class/Scenes/Tenth Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
