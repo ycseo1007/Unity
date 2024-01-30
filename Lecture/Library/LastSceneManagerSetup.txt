@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Twelfth Class/Scenes/Twelfth Scene.unity
+- path: Assets/Thirteenth Class/Scenes/Thirteenth Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
