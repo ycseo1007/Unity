@@ -15,14 +15,34 @@ public class ObjectPoolManager : MonoBehaviour
 
     void Start()
     {
-        
+        CreateContainer();
     }
 
     public void CreateContainer()
     {
         for (int i = 0; i < createCount; i++)
         {
+            GameObject prefab = Instantiate(container);
             
+            prefab.gameObject.SetActive(false);
+
+            objectQueue.Enqueue(prefab);
         }
+    }
+
+    public void GetQueue()
+    {
+        GameObject prefab = objectQueue.Dequeue();
+
+        prefab.SetActive(true);
+    }
+
+    public void InsertQueue(GameObject prefab)
+    {
+        prefab.SetActive(false);
+
+        prefab.transform.position = Vector3.zero;
+
+        objectQueue.Enqueue(prefab);
     }
 }

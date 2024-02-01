@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Eighth Class/Scripts/AudioManager.cs"
 "Assets/Fifth Class/Scripts/Player.cs"
+"Assets/Fourteenth Class/Scripts/ActiveManager.cs"
 "Assets/Fourteenth Class/Scripts/DisableZone.cs"
 "Assets/Fourteenth Class/Scripts/Movement.cs"
 "Assets/Fourteenth Class/Scripts/ObjectPoolManager.cs"

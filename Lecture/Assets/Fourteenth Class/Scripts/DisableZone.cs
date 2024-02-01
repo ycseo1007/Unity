@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class DisableZone : MonoBehaviour
 {
+    public ObjectPoolManager objectPoolManager;
+
     private void OnTriggerEnter(Collider other)
     {
-        /* Using Tad Instead of Layer Mask */
-        if(other.CompareTag("Container")) other.gameObject.SetActive(false);
+        /* Using Tag Instead of Layer Mask */
+        if(other.CompareTag("Container")) objectPoolManager.InsertQueue(other.gameObject);
     }
 }
